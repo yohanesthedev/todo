@@ -13,6 +13,30 @@ body {
 
 .remove {
     background-color: #dc3545;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 16px;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 12pt;
+    color: white;
+}
+
+.completed-btn {
+    background-color: #86dc35;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 12pt;
+    color: white;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    transition: all 0.5s ease;
 }
 
 input[type=text] {
@@ -41,6 +65,3 @@ ul {
     text-align: left;
 }
 
-li {
-    padding: 10px;
-}
